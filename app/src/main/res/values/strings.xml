@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppKu</string>
+    <string name="friends_list">Friends List</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity_image_desc">Activity Image</string>
+    <string name="gallery">Gallery</string>
+    <string name="desc">Mahasiswa Prodi Teknik Informatika Universitas Komputer Indonesia</string>
+    <string name="walkthrough1">Mulai jelajahi minat dan aktivitasku sehari-hari melalui beranda yang menyenangkan dan informatif. Temukan tentang diriku, teman-temanku, serta minat dan cita-citaku. Ayo mulai petualangan ini bersama!</string>
+    <string name="walkthrough2">Di sini kamu akan menemukan daftar aktivitasku sehari-hari dan teman-teman terdekatku. Mulai dari daftar kegiatan hingga teman-teman, semuanya ada di sini.  Temukan lebih banyak tentang diriku disini, temui teman-teman baru, dan jelajahi minat serta cita-citamu.</string>
+    <string name="profile_image_desc">Refaldi Dzaudan Pratama, lahir pada tanggal 6 Mei 2003. Saya tinggal di Cimahi, kota yang penuh dengan kenangan dan inspirasi. Saya dikenal sebagai individu yang berdedikasi dan penuh semangat, namun santai dalam menghadapi sesuatu. Saya selalu berusaha mencapai tujuan-tujuan saya dengan penuh tekad dan usaha walaupun terkadang tujuan tersebut belum tentu tercapai.</string>
+</resources>

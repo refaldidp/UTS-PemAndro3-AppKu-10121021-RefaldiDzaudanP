@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="163dp"
+        android:layout_height="174dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="142dp"
+        app:srcCompat="@drawable/baseline_keyboard_double_arrow_down_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayo, mari kita mulai membuat hari-harimu lebih berwarna!"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="502dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="AppKu bukan AppMu"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="@color/black"
+        android:text="MULAI APPKU" />
+</RelativeLayout>

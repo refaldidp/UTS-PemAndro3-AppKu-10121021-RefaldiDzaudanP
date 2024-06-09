@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Container for the whole item -->
+    <LinearLayout
+        android:layout_width="212dp"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <!-- Circular image view for friend's profile picture -->
+        <ImageView
+            android:id="@+id/image_friend"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_friend" /> <!-- Assuming you have a circular shape drawable -->
+
+        <!-- Container for text information -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Friend's name -->
+            <TextView
+                android:id="@+id/name_friend"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:text="Friend Name"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Divider line -->
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="212dp"
+        android:layout_height="9dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>
